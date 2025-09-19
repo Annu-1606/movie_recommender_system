@@ -46,7 +46,8 @@ Run the app:
 bash
 Copy code
 streamlit run app.py
-🖥️ How It Works
+
+## 🖥️ How It Works
 User selects a movie from the dropdown.
 
 The app calculates the most similar movies using a precomputed similarity matrix.
@@ -55,7 +56,7 @@ Movie posters are fetched from TMDb API using the movie IDs.
 
 Top 5 recommended movies with their posters are displayed in columns.
 
-🔑 TMDb API Key
+## 🔑 TMDb API Key
 The app uses the TMDb API to fetch movie posters. Replace the API key in the code if needed:
 
 python
