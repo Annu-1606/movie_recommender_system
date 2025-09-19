@@ -30,22 +30,14 @@ A **movie recommendation system** built with **Streamlit** that suggests movies 
    ```bash
    git clone <repository-url>
    cd <repository-folder>
-Install the required packages:
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
-Make sure you have the following files in your project:
+3. Run the app:
+   ```bash
+   streamlit run app.py
 
-movies_dict.pkl – Dictionary of movies.
-
-similarity.pkl – Precomputed similarity matrix.
-
-Run the app:
-
-bash
-Copy code
-streamlit run app.py
 
 ## 🖥️ How It Works
 User selects a movie from the dropdown.
